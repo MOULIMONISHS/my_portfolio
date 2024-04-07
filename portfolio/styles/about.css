@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f2f5;
+    font-family: capriola;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about-header {
+    text-align: center;
+    font-family: capriola;
+    padding-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 150px;
+}
+
+.about-section {
+    font-family: capriola;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.info-box {
+    font-family: capriola;
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+.info-box h2 {
+    font-family: 'Arial', sans-serif; /* Change font to Arial */
+    font-size: 20PX;
+    font-family: capriola;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-box ul li {
+    margin-bottom: 8px;
+}
+
+/* Add hover effect */
+.info-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+@media (min-width: 768px) {
+    .info-box {
+        width: 60%;
+    }
+}

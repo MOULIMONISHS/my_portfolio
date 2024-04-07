@@ -1,0 +1,177 @@
+#about{
+
+    background-color: #ffff;
+    border: 1px solid black;
+
+}
+
+
+  .gallery-item {
+   
+    padding: 15px; /* Optional: Add padding inside gallery items */
+  }
+  
+  .gallery-links {
+ 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: opacity 0.3s ease;
+  }
+  
+  .gallery-item img {
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item:hover .gallery-links {
+    opacity: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .gallery-item {
+      margin-bottom: 20px; /* Adjust spacing between items on smaller screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .gy-3 > [class*='col-'] {
+      padding-right: 7.5px;
+      padding-left: 7.5px;
+    }
+  }
+
+  body {
+    background-color: #f0f2f5;
+    background-color: #f0f2f5;
+    font-family: capriola;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Header styles */
+#header{
+    text-align: center;
+    background-color: #ffffff; /* White background for header */
+    padding: 30px 0; /* Add padding top and bottom */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    text-align: center;
+    font-size: 17px;
+    font-family: capriola;
+    padding-top: 50px;
+    
+    height: 150px;
+    top: 0;
+    z-index: 1000px; /* Ensure header stays on top */
+
+    position: sticky;
+    
+    
+}
+
+/* Details section styles */
+.details {
+  font-family: capriola;
+  font-size: 25px;
+  background-color: #ffffff; /* White background for details section */
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: transform 0.3s ease; /* Transition for transform effect */
+}
+
+/* Image container styles */
+.gallery-item {
+    background-color: #ffffff; /* White background for image containers */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    
+    margin-bottom: 20px; /* Add space between image containers */
+}
+
+/* Ensure images fill their containers */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Social icons */
+.social-icons {
+    position: absolute;
+    top: 0%; /* Adjust top position */
+    right: 20px; /* Adjust left position */
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #333333; /* Black color for icons */
+    font-size: 18px; /* Icon size */
+    margin-right: 10px; /* Spacing between icons */
+}
+.social-icons img {
+    width: 20px; /* Adjust image size as needed */
+    height: 20px;
+    margin-left: 10px;
+}
+
+.projects-1{
+  text-align: center;
+  padding-top: 50px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 250px;
+  font-size: 40px;
+  background-color: #ffffff; /* White background for details section */
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: transform 0.3s ease; /* Transition for transform effect */
+}
+
+.section {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.intern{
+
+  text-align: center;
+  font-family: capriola;
+  padding-top: 50px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  height: 1100px;
+  font-family: capriola;
+  font-size: 25px;
+  background-color: #ffffff; /* White background for details section */
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: transform 0.3s ease; /* Transition for transform effect */
+}
+
+
+
